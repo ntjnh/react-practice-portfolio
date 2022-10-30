@@ -24,7 +24,7 @@
       font-size: 18px;
       position: absolute;
       margin-top: -40px;
-      left: 15px;
+      left: 0;
       opacity: 0.6;
     }
 
@@ -34,7 +34,7 @@
       color: $blue;
       font-size: 18px;
       position: absolute;
-      margin-top: 18px;
+      margin-top: 36px;
       margin-left: 20px;
       animation: fadeIn 1s 1.7s backwards;
       opacity: 0.6;
@@ -59,5 +59,26 @@
     font-size: 11px;
     font-family: 'Roboto Mono';
     letter-spacing: 3px;
+    animation: fadeIn 1s 1.8s backwards;
+  }
+
+  .flat-button {
+    color: $blue;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-family: 'Roboto Mono';
+    text-decoration: none;
+    padding: 10px 18px;
+    border: 1px solid $blue;
+    margin-top: 25px;
+    float: left;
+    animation: fadeIn 1s 1.8s backwards;
+    white-space: nowrap;
+
+    &:hover {
+      background-color: $blue;
+      color: $white;
+    }
   }
 }
