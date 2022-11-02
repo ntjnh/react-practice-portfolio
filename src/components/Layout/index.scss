@@ -19,8 +19,12 @@
       top: 35px;
     }
 
-    .bottom-tag-html {
-      margin-left: -20px;
+    &.bottom-tags {
+      bottom: 35px;
+
+      .bottom-tag-html {
+        margin-left: -20px;
+      }
     }
   }
 
